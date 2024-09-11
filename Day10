@@ -1,0 +1,8 @@
+public class Day10 {
+    public static void main(String[] args) {
+        byte ukuransandal = 36;
+        // angkanya dari -128 sampai 127
+        System.out.println(" ukuransandal:"+ ukuransandal);
+    }
+    
+}
