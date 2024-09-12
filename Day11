@@ -1,0 +1,10 @@
+
+public class Day11 {
+    public static void main(String[] args) {
+        short  minimal = -32768;
+        System.out.println(" nilai minimal dari short adalah "+ minimal);
+        short maximal = 32767;
+        System.out.println(" nilai maximal dari short adalah "+ maximal);
+    }
+    
+}
