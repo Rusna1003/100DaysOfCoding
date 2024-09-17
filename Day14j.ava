@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+		String nama="Rusna";
+		System.out.println("nama:"+nama);
+		
+		float  tb =152.9f;
+		System.out.println("tb:"+tb);
+		
+	}
+}
