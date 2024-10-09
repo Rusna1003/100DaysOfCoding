@@ -1,16 +1,28 @@
+import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
-		int Rusna= 20;
-		System.out.println("Rusna:"+Rusna);
-		 
-		 Rusna *= 2;
-		 System.out.println("Perkalian:");
-		 System.out.println("Rusna :"+Rusna);
-		 
-		 Rusna /= 2;
-		 System.out.println("Pembagian ");
-		 System.out.println("Rusna :"+Rusna);
+		Scanner Q= new Scanner(System.in);
+		int a,b,c,d;
+		// operator perkalian
+		System.out.print("Masukkan nilai  :");
+		a =Q.nextInt();
 		
+		System.out.print("Masukkan nilai   :");
+		b=Q.nextInt();
+		a*=b;
+		System.out.print(a);
+		
+		// operator pembagian
+		System.out.print("Masukkan nilai :");
+		c =Q.nextInt();
+		
+		System.out.print("Masukkan nilai:");
+		d=Q.nextInt();
+		c/=d;
+		System.out.print(c);
+        
+		
+	
 		
 	}
 }
