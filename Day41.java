@@ -1,3 +1,11 @@
+
+		
+		
+		 
+		
+		
+		
+		
 import java.math.BigInteger;
 import java.math.BigDecimal;
 import java.util.Scanner;
@@ -15,8 +23,8 @@ public class Day41 {
 		System.out.println("nilai int "+ d);
 		System.out.println("nilai setelah typecasting ke double "+e);
 		
-		BigInteger R = new BigInteger("9873628294748488");
-		BigInteger U = new BigInteger ("37482947583848485758");
+		BigInteger R = new BigInteger("98765432109876543210");
+		BigInteger U = new BigInteger ("12345678901234567890");
 		BigInteger jumlah = R.add(U);
 		BigInteger perkalian = R.multiply(U);
 		System.out.println("penjumlahan BigInteger "+ jumlah);
