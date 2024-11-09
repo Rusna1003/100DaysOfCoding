@@ -1,17 +1,20 @@
 // soal 1
-public class Soal_02 {
+import java.util.Scanner;
 
+
+public class Rusna_r {
     public static void main(String[] args) {
-        int number = 1;
-
-      
-        for (int i = 1; i <= 4; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(number + " ");
-                number++;
-            }
-            System.out.println(); 
+        Scanner apa = new Scanner(System.in);
+        int mulai = apa.nextInt();
+        int factorial = 1;
+        for(int a =  mulai ; a>0; a--){
+            factorial *=a;
+            System.out.println(a);
+            if (a>1){
+                System.out.print(" ");
         }
+        }
+        System.out.print(" "+ factorial);
     }
 }
 // soal 2
